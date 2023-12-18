@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Void", "Void\Void.csproj", "{0841A0DC-13C4-404A-876C-A90CAC885595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DortIslem", "DortIslem\DortIslem.csproj", "{A71C0D40-5FCD-47FC-9BE4-B7BB88617B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DortIslem", "DortIslem\DortIslem.csproj", "{A71C0D40-5FCD-47FC-9BE4-B7BB88617B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuStrip", "MenuStrip\MenuStrip.csproj", "{66B673E5-42A1-4233-9152-E388B06A6610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A71C0D40-5FCD-47FC-9BE4-B7BB88617B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A71C0D40-5FCD-47FC-9BE4-B7BB88617B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A71C0D40-5FCD-47FC-9BE4-B7BB88617B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B673E5-42A1-4233-9152-E388B06A6610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B673E5-42A1-4233-9152-E388B06A6610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B673E5-42A1-4233-9152-E388B06A6610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B673E5-42A1-4233-9152-E388B06A6610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
