@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Void", "Void\Void.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DortIslem", "DortIslem\DortIslem.csproj", "{A71C0D40-5FCD-47FC-9BE4-B7BB88617B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuStrip", "MenuStrip\MenuStrip.csproj", "{66B673E5-42A1-4233-9152-E388B06A6610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuStrip", "MenuStrip\MenuStrip.csproj", "{66B673E5-42A1-4233-9152-E388B06A6610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextMenuStrip", "ContextMenuStrip\ContextMenuStrip.csproj", "{8CCEC7D9-783A-456B-9B02-719A15A43CAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextMenuStrip", "ContextMenuStrip\ContextMenuStrip.csproj", "{8CCEC7D9-783A-456B-9B02-719A15A43CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomClass", "RandomClass\RandomClass.csproj", "{259C5EE8-431B-448B-83C6-3FDEE5981085}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8CCEC7D9-783A-456B-9B02-719A15A43CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CCEC7D9-783A-456B-9B02-719A15A43CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CCEC7D9-783A-456B-9B02-719A15A43CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259C5EE8-431B-448B-83C6-3FDEE5981085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259C5EE8-431B-448B-83C6-3FDEE5981085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259C5EE8-431B-448B-83C6-3FDEE5981085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259C5EE8-431B-448B-83C6-3FDEE5981085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
