@@ -10,8 +10,8 @@ namespace RandomClass
         private void button1_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
-            int s1,s2,s3,s4;
-            s1 = rnd.Next(1,5);
+            int s1, s2, s3, s4;
+            s1 = rnd.Next(1, 5);
             s2 = rnd.Next(1, 5);
             s3 = rnd.Next(1, 5);
             s4 = rnd.Next(1, 5);
@@ -20,13 +20,13 @@ namespace RandomClass
             label3.Text = s3.ToString();
             label4.Text = s4.ToString();
 
-            if (textBox1.Text==label1.Text)
+            if (textBox1.Text == label1.Text)
             {
                 textBox1.BackColor = Color.Green;
             }
             else
             {
-                textBox1.BackColor= Color.Red;
+                textBox1.BackColor = Color.Red;
             }
 
             if (textBox2.Text == label2.Text)
