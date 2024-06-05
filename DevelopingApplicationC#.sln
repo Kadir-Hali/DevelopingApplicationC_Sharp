@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextMenuStrip", "Context
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomClass", "RandomClass\RandomClass.csproj", "{259C5EE8-431B-448B-83C6-3FDEE5981085}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{4B22C11E-82CB-4AED-B1C2-517B5ED6C47C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{259C5EE8-431B-448B-83C6-3FDEE5981085}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{259C5EE8-431B-448B-83C6-3FDEE5981085}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{259C5EE8-431B-448B-83C6-3FDEE5981085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B22C11E-82CB-4AED-B1C2-517B5ED6C47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B22C11E-82CB-4AED-B1C2-517B5ED6C47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B22C11E-82CB-4AED-B1C2-517B5ED6C47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B22C11E-82CB-4AED-B1C2-517B5ED6C47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
