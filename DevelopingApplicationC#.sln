@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomClass", "RandomClass\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Examples.csproj", "{4B22C11E-82CB-4AED-B1C2-517B5ED6C47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorMethod", "ConstructorMethod\ConstructorMethod.csproj", "{04340921-1DB8-4E6B-8FC6-43C4202E08DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorMethod", "ConstructorMethod\ConstructorMethod.csproj", "{04340921-1DB8-4E6B-8FC6-43C4202E08DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Captcha", "Captcha\Captcha.csproj", "{91D59F99-6A9B-45AA-8FE9-2042A9781F21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{04340921-1DB8-4E6B-8FC6-43C4202E08DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04340921-1DB8-4E6B-8FC6-43C4202E08DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04340921-1DB8-4E6B-8FC6-43C4202E08DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D59F99-6A9B-45AA-8FE9-2042A9781F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D59F99-6A9B-45AA-8FE9-2042A9781F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D59F99-6A9B-45AA-8FE9-2042A9781F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D59F99-6A9B-45AA-8FE9-2042A9781F21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
