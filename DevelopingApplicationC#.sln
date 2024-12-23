@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Exampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorMethod", "ConstructorMethod\ConstructorMethod.csproj", "{04340921-1DB8-4E6B-8FC6-43C4202E08DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Captcha", "Captcha\Captcha.csproj", "{91D59F99-6A9B-45AA-8FE9-2042A9781F21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Captcha", "Captcha\Captcha.csproj", "{91D59F99-6A9B-45AA-8FE9-2042A9781F21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -29,38 +29,39 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            label1 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(61, 351);
+            button1.Location = new Point(84, 186);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(129, 39);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // label1
+            // textBox1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe Script", 22.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 162);
-            label1.Location = new Point(57, 127);
-            label1.Name = "label1";
-            label1.Size = new Size(149, 61);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            textBox1.Location = new Point(84, 103);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(255, 34);
+            textBox1.TabIndex = 1;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 27F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            ClientSize = new Size(1100, 608);
+            Controls.Add(textBox1);
             Controls.Add(button1);
+            Font = new Font("Arial Narrow", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -68,6 +69,6 @@
         #endregion
 
         private Button button1;
-        private Label label1;
+        private TextBox textBox1;
     }
 }
